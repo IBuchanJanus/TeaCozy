@@ -1,0 +1,146 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -8px;
+    float: top;
+    justify-content: space-between;
+    border: 1px, solid, white, 
+}
+
+
+#logo {
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+    float: left;
+    }
+
+nav {
+    display: flex;
+    margin-top: 0;
+}
+
+a {
+    margin: 0 10px;
+    color: white;
+}
+
+section {
+    justify-self: center;
+}
+
+#mission {
+    background-image: url(.././Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: right 0 top 70px;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    padding-top: 69px;
+    margin: auto;
+}
+
+#mission h2 {
+    padding-top: 5px;
+    margin-top: 310px;
+}
+
+#mission-text {
+    justify-content: center;
+    height: 115px;
+    background-color: black;
+    background-position: right 0 top 150px;
+    margin-top: 225px;
+    padding: auto;
+}
+
+#featured-tea {
+    width: 1000px;
+    margin: auto;
+}
+
+#teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+}
+
+.tea-images {
+    width: 300px;
+    height: 200px;
+}
+
+.tea {
+    margin: 15px;
+}
+
+figcaption {
+    width: 300px;
+    margin-top: 10px;
+}
+
+#locations {
+    background-image: url(../Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 0 top 35px;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+#locations h2 {
+    padding-top: 110px;
+    margin-bottom: 15px;
+}
+
+#locations h3 {
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#addresses {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 40px;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    line-height: 2.5;
+}
+
+#contact {
+    height: 200px;
+}
+
+#contact h2 {
+    margin-top: 5px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
